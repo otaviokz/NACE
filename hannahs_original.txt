@@ -1,0 +1,1305 @@
+export default {
+  A: {
+    label: "Agriculture, Forestry and Fishing",
+    category: {
+      Agriculture: {
+        label:
+          "Crop and animal production, hunting and related service activities",
+        subcategory: {
+          "01110": "Growing cereal(nonrice)/pod crop/oilseed",
+          "01120": "Growing of rice",
+          "01130": "Growing of veg, melons, roots and tubers",
+          "01140": "Growing of sugar cane",
+          "01150": "Growing of tobacco",
+          "01160": "Growing of fibre crops",
+          "01190": "Growing of other non-perennial crops",
+          "01210": "Growing of grapes",
+          "01220": "Growing of tropical and subtropical fruits",
+          "01230": "Growing of citrus fruits",
+          "01240": "Growing of pome fruits and stone fruits",
+          "01250": "Growing of other tree and bush fruits or nuts",
+          "01260": "Growing of oleaginous fruits",
+          "01270": "Growing of beverage crops",
+          "01280": "Growing spices, aromatic and drug crops",
+          "01290": "Growing of other perennial crops",
+          "01300": "Plant propagation",
+          "01410": "Raising of dairy cattle",
+          "01420": "Raising of other cattle and buffaloes",
+          "01421": "Farming of cattle in less favoured areas",
+          "01422": "Farming mixed beef & dairy cattle",
+          "01430": "Raising of horses and other equines",
+          "01440": "Raising of camels and camelids",
+          "01450": "Raising of sheep and goats",
+          "01451": "Farm sheep and goat - less favoured area",
+          "01460": "Raising of swine/pigs",
+          "01470": "Raising of poultry",
+          "01471": "Farming poultry for eggs",
+          "01490": "Raising of other animals",
+          "01500": "Mixed farming",
+          "01610": "Support activities for crop production",
+          "01621": "Farm animal boarding and care",
+          "01629": "Animal production support(not farm help)",
+          "01630": "Post-harvest crop activities",
+          "01640": "Seed processing for propagation",
+          "01700": "Hunter, trapper or related activities"
+        }
+      },
+      Forestry: {
+        label: "Forestry and logging",
+        subcategory: {
+          "02100": "Silviculture and other forestry activities",
+          "02200": "Logging",
+          "02300": "Gathering of wild growing non-wood items",
+          "02400": "Support services to forestry"
+        }
+      },
+      Fishing: {
+        label: "Fishing and aquaculture",
+        subcategory: {
+          "03110": "Marine fishing",
+          "03120": "Freshwater fishing",
+          "03210": "Marine aquaculture",
+          "03220": "Freshwater aquaculture"
+        }
+      }
+    }
+  },
+  B: {
+    label: "Mining and Quarrying",
+    category: {
+      coal: {
+        label: "Mining of coal and lignite",
+        subcategory: {
+          "05101": "Mining hard coal from underground mines",
+          "05102": "Mining coal from open cast coal working",
+          "05200": "Mining of lignite"
+        }
+      },
+      petrol: {
+        label: "Extraction of crude petroleum and natural gas",
+        subcategory: {
+          "06100": "Extraction of crude petroleum",
+          "06200": "Extraction of natural gas"
+        }
+      },
+      metals: {
+        label: "Mining of metal ores",
+        subcategory: {
+          "07100": "Mining of iron ores",
+          "07210": "Mining of uranium and thorium ores",
+          "07290": "Mining of other non-ferrous metal ores"
+        }
+      },
+      other: {
+        label: "Other mining and quarrying",
+        subcategory: {
+          "08110": "Quarrying ornamental/building stone etc",
+          "08120": "Ops gravel/sand pits;mining clay/kaolin",
+          "08910": "Mining of chemical and fertiliser mineral",
+          "08920": "Extraction of peat",
+          "08930": "Extraction of salt",
+          "08990": "Other mining and quarrying n.e.c."
+        }
+      },
+      support: {
+        label: "Mining support service activities",
+        subcategory: {
+          "09100": "Support activity petrol/gas extraction",
+          "09900": "Support activity for other mines quarry"
+        }
+      }
+    }
+  },
+  C: {
+    label: "Manufacturing",
+    category: {
+      food: {
+        label: "Manufacture of food products",
+        subcategory: {
+          "10110": "Processing and preserving of meat",
+          "10120": "Processing or preserving of poultry meat",
+          "10130": "Production of meat products",
+          "10200": "Processing of fish, crustacean, molluscs",
+          "10310": "Processing and preserving of potatoes",
+          "10320": "Manufacture of fruit and vegetable juice",
+          "10390": "Other process/preserving of fruit & veg",
+          "10410": "Manufacture of oils and fats",
+          "10420": "Manufac margarine and similar edible fat",
+          "10511": "Liquid milk and cream production",
+          "10512": "Butter and cheese production",
+          "10519": "Manufac milk products (not milk/cheese)",
+          "10520": "Manufacture of ice cream",
+          "10611": "Grain milling",
+          "10612": "Manufac b'fast cereals/cereal-based food",
+          "10620": "Manufac of starches and starch products",
+          "10710": "Manufac bread; fresh pastry goods/cakes",
+          "10720": "Manufac rusks/biscuits/pastry goods/cake",
+          "10730": "Manufac macaroni/noodles/couscous etc",
+          "10810": "Manufacture of sugar",
+          "10821": "Manufac cocoa/chocolate confectionery",
+          "10822": "Manufacture of sugar confectionery",
+          "10831": "Tea processing",
+          "10832": "Coffee production and coffee substitutes",
+          "10840": "Manufacture of condiments and seasonings",
+          "10850": "Manufacture of prepared meals and dishes",
+          "10860": "Manufac homogenised/dietetic food stuffs",
+          "10890": "Manufac of other food products n.e.c.",
+          "10910": "Manufac prepared feeds for farm animals",
+          "10920": "Manufacture of prepared pet foods"
+        }
+      },
+      beverages: {
+        label: "Manufacture of beverages",
+        subcategory: {
+          "11010": "Distilling and blending of spirits",
+          "11020": "Manufacture of wine from grape",
+          "11030": "Manufac of cider and other fruit wines",
+          "11040": "Manufac other nondistilld fermentd drink",
+          "11050": "Manufacture of beer",
+          "11060": "Manufacture of malt",
+          "11070": "Manufac soft drinks/mineral waters"
+        }
+      },
+      tobacco: {
+        label: "Manufacture of tobacco products",
+        subcategory: {
+          "12000": "Manufacture of tobacco products"
+        }
+      },
+      textiles: {
+        label: "Manufacture of textiles",
+        subcategory: {
+          "13100": "Preparing and spinning of textile fibre",
+          "13200": "Weaving of textiles",
+          "13300": "Finishing of textiles",
+          "13910": "Manufac of knitted and crocheted fabrics",
+          "13921": "Manufacture of soft furnishings",
+          "13922": "Manufacture of canvas goods, sacks etc.",
+          "13923": "Manufac h'hold textile not soft furnish",
+          "13931": "Manufac woven or tufted carpets and rugs",
+          "13939": "Manufac carpet/rug (not woven or tufted)",
+          "13940": "Manufac cordage, rope, twine and netting",
+          "13950": "Manufac non-wovens, except apparel",
+          "13960": "Manufac other technical/industrl textile",
+          "13990": "Manufacture of other textiles n.e.c."
+        }
+      },
+      apparel: {
+        label: "Manufacture of wearing apparel",
+        subcategory: {
+          "14110": "Manufacture of leather clothes",
+          "14120": "Manufacture of workwear",
+          "14131": "Manufac men's outwear(not leather/work)",
+          "14132": "Manufac womens outwear(not leatherwear)",
+          "14141": "Manufacture of men's underwear",
+          "14142": "Manufacture of women's underwear",
+          "14190": "Manufac other wearing apparel/accessory",
+          "14200": "Manufacture of articles of fur",
+          "14310": "Manufac of knitted and crocheted hosiery",
+          "14390": "Manufac knitted and crocheted apparel"
+        }
+      },
+      leather: {
+        label: "Manufacture of leather and related products",
+        subcategory: {
+          "15110": "Leather/fur; tanning/dressing/dyeing",
+          "15120": "Manufac luggage/handbag/saddlery/harness",
+          "15200": "Manufacture of footwear"
+        }
+      },
+      wood: {
+        label:
+          "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+        subcategory: {
+          "16100": "Sawmilling and planing of wood",
+          "16210": "Manufac veneer sheets/wood-based panels",
+          "16220": "Manufacture of assembled parquet floors",
+          "16230": "Manufac other builders' carpentry etc",
+          "16240": "Manufacture of wooden containers",
+          "16290": "Manufac other product of wood/cork/straw"
+        }
+      },
+      paper: {
+        label: "Manufacture of paper and paper products",
+        subcategory: {
+          "17110": "Manufacture of pulp",
+          "17120": "Manufacture of paper and paperboard",
+          "17211": "Manufac ribbed paper;paper sacks/bags",
+          "17219": "Manufac paper containers not sacks/bags",
+          "17220": "Manufac household and sanitary goods",
+          "17230": "Manufacture of paper stationery",
+          "17240": "Manufacture of wallpaper",
+          "17290": "Manufac other items of paper/paperboard"
+        }
+      },
+      media: {
+        label: "Printing and reproduction of recorded media",
+        subcategory: {
+          "18110": "Printing of newspapers",
+          "18121": "Manufacture of printed labels",
+          "18129": "Printing (not newspapers/labels) n.e.c.",
+          "18130": "Pre-press and pre-media services",
+          "18140": "Binding and related services",
+          "18201": "Reproduction of sound recording",
+          "18202": "Reproduction of video recording",
+          "18203": "Reproduction of computer media"
+        }
+      },
+      coke: {
+        label: "Manufacture of coke and refined petroleum products",
+        subcategory: {
+          "19100": "Manufacture of coke oven products",
+          "19201": "Mineral oil refining",
+          "19209": "Other treatment of petroleum products"
+        }
+      },
+      chemicals: {
+        label: "Manufacture of chemicals and chemical products",
+        subcategory: {
+          "20110": "Manufacture of industrial gases",
+          "20120": "Manufacture of dyes and pigments",
+          "20130": "Manufac other inorganic basic chemicals",
+          "20140": "Manufac of other organic basic chemicals",
+          "20150": "Manufac fertiliser or nitrogen compounds",
+          "20160": "Manufacture of plastics in primary forms",
+          "20170": "Manufac synthetic rubber in primary form",
+          "20200": "Manufac pesticide/other agrochem product",
+          "20301": "Manufac paint/varnishes/mastics/sealants",
+          "20302": "Manufacture of printing ink",
+          "20411": "Manufacture of soap and detergents",
+          "20412": "Manufac cleaning/polishing preparations",
+          "20420": "Manufac perfumes and toilet preparations",
+          "20510": "Manufacture of explosives",
+          "20520": "Manufacture of glues",
+          "20530": "Manufacture of essential oils",
+          "20590": "Manufac of other chemical product n.e.c.",
+          "20600": "Manufacture of man-made fibres"
+        }
+      },
+      pharmaceutical: {
+        label:
+          "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+        subcategory: {
+          "21100": "Manufac of basic pharmaceutical products",
+          "21200": "Manufac of pharmaceutical preparations"
+        }
+      },
+      rubber: {
+        label: "Manufacture of rubber and plastic products",
+        subcategory: {
+          "22110": "Manufac rubber tyre/tube; retread/builds",
+          "22190": "Manufacture of other rubber products",
+          "22210": "Manufac plastic plates, sheets, tube etc",
+          "22220": "Manufacture of plastic packing goods",
+          "22230": "Manufacture of builders' ware of plastic",
+          "22290": "Manufacture of other plastic products"
+        }
+      },
+      mineral: {
+        label: "Manufacture of other non-metallic mineral products",
+        subcategory: {
+          "23110": "Manufacture of flat glass",
+          "23120": "Shaping and processing of flat glass",
+          "23130": "Manufacture of hollow glass",
+          "23140": "Manufacture of glass fibres",
+          "23190": "Manufac other glass & special glassware",
+          "23200": "Manufacture of refractory products",
+          "23310": "Manufacture of ceramic tiles and flags",
+          "23320": "Manufac clay baked bricks/tiles etc",
+          "23410": "Manufac ceramic/ornament household items",
+          "23420": "Manufacture of ceramic sanitary fixtures",
+          "23430": "Manufac ceramic insulators/fittings",
+          "23440": "Manufac other technical ceramic products",
+          "23490": "Manufacture of other ceramic products",
+          "23510": "Manufacture of cement",
+          "23520": "Manufacture of lime and plaster",
+          "23610": "Manufac concrete products (construction)",
+          "23620": "Manufac plaster product for building use",
+          "23630": "Manufacture of ready-mixed concrete",
+          "23640": "Manufacture of mortars",
+          "23650": "Manufacture of fibre cement",
+          "23690": "Manufac othr itm concrete/plaster/cement",
+          "23700": "Cutting, shaping and finishing of stone",
+          "23910": "Production of abrasive products",
+          "23990": "Manufac other non-metallic mineral prods"
+        }
+      },
+      metal: {
+        label: "Manufacture of basic metals",
+        subcategory: {
+          "24100": "Manufac basic iron/steel/ferro-alloys",
+          "24200": "Manufac steel tubes/pipes/other fittings",
+          "24310": "Cold drawing of bars",
+          "24320": "Cold rolling of narrow strip",
+          "24330": "Cold forming or folding",
+          "24340": "Cold drawing of wire",
+          "24410": "Precious metals production",
+          "24420": "Aluminium production",
+          "24430": "Lead, zinc and tin production",
+          "24440": "Copper production",
+          "24450": "Other non-ferrous metal production",
+          "24460": "Processing of nuclear fuel",
+          "24510": "Casting of iron",
+          "24520": "Casting of steel",
+          "24530": "Casting of light metals",
+          "24540": "Casting of other non-ferrous metals"
+        }
+      },
+      fabricated: {
+        label:
+          "Manufacture of fabricated metal products, except machinery and equipment",
+        subcategory: {
+          "25110": "Manufac metal structures and (parts of)",
+          "25120": "Manufac of doors and windows of metal",
+          "25210": "Manufac central heating radiator/boilers",
+          "25290": "Manufac other tanks and metal containers",
+          "25300": "Manufac steam producers not water boiler",
+          "25400": "Manufacture of weapons and ammunition",
+          "25500": "Forge/press/stamp/roll-form of metal",
+          "25610": "Treatment and coating of metals",
+          "25620": "Machining",
+          "25710": "Manufacture of cutlery",
+          "25720": "Manufacture of locks and hinges",
+          "25730": "Manufacture of tools",
+          "25910": "Manufac steel drum or similar containers",
+          "25920": "Manufacture of light metal packaging",
+          "25930": "Manufac wire products, chain and springs",
+          "25940": "Manufac rivets, screws, nuts, bolts etc",
+          "25990": "Manufac other fabricated metal products"
+        }
+      },
+      electronic: {
+        label: "Manufacture of computer, electronic and optical products",
+        subcategory: {
+          "26110": "Manufacture of electronic components",
+          "26120": "Manufacture of loaded electronic boards",
+          "26200": "Manufac computer or peripheral equipment",
+          "26301": "Manufac telegraph/telephone apparatus",
+          "26309": "Manufac communication kit (not phones)",
+          "26400": "Manufacture of consumer electronics",
+          "26511": "Manufac electric instruments for testing",
+          "26512": "Manufac electronic process control kit",
+          "26513": "Manufac non-electric instrument for test",
+          "26514": "Manufac nonelectronic process contrl kit",
+          "26520": "Manufacture of watches and clocks",
+          "26600": "Manufac irradiation, electromedical kit",
+          "26701": "Manufac of optical precision instruments",
+          "26702": "Manufac photographic/filming equipment",
+          "26800": "Manufac of magnetic and optical media"
+        }
+      },
+      electrical: {
+        label: "Manufacture of electrical equipment",
+        subcategory: {
+          "27110": "Manufac electric motors, generators etc",
+          "27120": "Manufac electricity distribution/control",
+          "27200": "Manufac of batteries and accumulators",
+          "27310": "Manufacture of fibre optic cables",
+          "27320": "Manufac othr electronic and wires/cables",
+          "27330": "Manufacture of wiring devices",
+          "27400": "Manufac of electric lighting equipment",
+          "27510": "Manufac of electric domestic appliances",
+          "27520": "Manufac non-electric domestic appliances",
+          "27900": "Manufac of other electrical equipment"
+        }
+      },
+      machinery: {
+        label: "Manufacture of machinery and equipment n.e.c.",
+        subcategory: {
+          "28110": "Manufac engines not aircraft/car engines",
+          "28120": "Manufacture of fluid power equipment",
+          "28131": "Manufacture of pumps",
+          "28132": "Manufacture of compressors",
+          "28140": "Manufacture of other taps and valves",
+          "28150": "Manufac bearings/gears/driving elements",
+          "28210": "Manufac ovens, furnaces, furnace burners",
+          "28220": "Manufac lifting and handling equipment",
+          "28230": "Manufac office machines(not computers)",
+          "28240": "Manufacture of power-driven hand tools",
+          "28250": "Manufac nondomestic cooling/venting gear",
+          "28290": "Manufac other general-purpose machinery",
+          "28301": "Manufacture of agricultural tractors",
+          "28302": "Manufac agriculture machine(not tractor)",
+          "28410": "Manufacture of metal forming machinery",
+          "28490": "Manufacture of other machine tools",
+          "28910": "Manufacture of machinery for metallurgy",
+          "28921": "Manufacture of machinery for mining",
+          "28922": "Manufacture of earthmoving equipment",
+          "28923": "Manufac concrete crusher/roadwork screen",
+          "28930": "Manufac machine food/dk/tobacco process",
+          "28940": "Manufac machinery for textile production",
+          "28950": "Manufac machinery for paper production",
+          "28960": "Manufac of plastics and rubber machinery",
+          "28990": "Manufac other special-purpose machinery"
+        }
+      },
+      vehicles: {
+        label: "Manufacture of motor vehicles, trailers and semi-trailers",
+        subcategory: {
+          "29100": "Manufacture of motor vehicles",
+          "29201": "Manufac motor vehicle bodies;not caravan",
+          "29202": "Manufac of trailers and semi-trailers",
+          "29203": "Manufacture of caravans",
+          "29310": "Manufac motor vehicle electric equipment",
+          "29320": "Manufac other parts for motor vehicles"
+        }
+      },
+      transport: {
+        label: "Manufacture of other transport equipment",
+        subcategory: {
+          "30110": "Building of ships or floating structures",
+          "30120": "Building of pleasure and sporting boats",
+          "30200": "Manufac rail locomotives/rolling stock",
+          "30300": "Manufac air/spacecraft/related machinery",
+          "30400": "Manufac of military fighting vehicles",
+          "30910": "Manufacture of motorcycles",
+          "30920": "Manufac of bicycle and invalid carriages",
+          "30990": "Manufac other transport equipment n.e.c."
+        }
+      },
+      furniture: {
+        label: "Manufacture of furniture",
+        subcategory: {
+          "31010": "Manufacture of office and shop furniture",
+          "31020": "Manufacture of kitchen furniture",
+          "31030": "Manufacture of mattresses",
+          "31090": "Manufacture of other furniture"
+        }
+      },
+      other: {
+        label: "Other manufacturing",
+        subcategory: {
+          "32110": "Striking of coins",
+          "32120": "Manufac of jewellery and related article",
+          "32130": "Manufac fake jewellery/related articles",
+          "32200": "Manufacture of musical instruments",
+          "32300": "Manufacture of sports goods",
+          "32401": "Manufac prof/arcade games/toys",
+          "32409": "Manufac games and toys (not arcade)",
+          "32500": "Manufac medical/dental instruments/stock",
+          "32910": "Manufacture of brooms and brushes",
+          "32990": "Other manufacturing n.e.c."
+        }
+      },
+      repair: {
+        label: "Repair and installation of machinery and equipment",
+        subcategory: {
+          "33110": "Repair of fabricated metal products",
+          "33120": "Repair of machinery",
+          "33130": "Repair electronic and optical equipment",
+          "33140": "Repair of electrical equipment",
+          "33150": "Repair and maintenance of ships or boats",
+          "33160": "Repair/maintenance of air or space craft",
+          "33170": "Repair/maintain other transprt equipment",
+          "33190": "Repair of other equipment",
+          "33200": "Installing industrial machinery/equipmnt"
+        }
+      }
+    }
+  },
+  D: {
+    label: "Electricity, gas, steam and air conditioning supply",
+    category: {
+      all: {
+        label: "Electricity, gas, steam and air conditioning supply",
+        subcategory: {
+          "35110": "Production of electricity",
+          "35120": "Transmission of electricity",
+          "35130": "Distribution of electricity",
+          "35140": "Trade of electricity",
+          "35210": "Manufacture of gas",
+          "35220": "Distribution of gaseous fuels via mains",
+          "35230": "Trade of gas through mains",
+          "35300": "Steam and air conditioning supply"
+        }
+      }
+    }
+  },
+  E: {
+    label:
+      "Water supply, sewerage, waste management and remediation activities",
+    category: {
+      water: {
+        label: "Water collection, treatment and supply",
+        subcategory: {
+          "36000": "Water collection, treatment and supply"
+        }
+      },
+      sewerage: {
+        label: "Sewerage",
+        subcategory: {
+          "37000": "Sewerage"
+        }
+      },
+      waste: {
+        label:
+          "Waste collection, treatment and disposal activities; materials recovery",
+        subcategory: {
+          "38110": "Collection of non-hazardous waste",
+          "38120": "Collection of hazardous waste",
+          "38210": "Treat and dispose of non-hazardous waste",
+          "38220": "Treating and disposal of hazardous waste",
+          "38310": "Dismantling of wrecks",
+          "38320": "Recovery of sorted materials"
+        }
+      },
+      remediation: {
+        label: "Remediation activities and other waste management services",
+        subcategory: {
+          "39000": "Decontamination & other waste removal"
+        }
+      }
+    }
+  },
+  F: {
+    label: "Construction",
+    category: {
+      buildings: {
+        label: "Construction of buildings",
+        subcategory: {
+          "41100": "Development of building projects",
+          "41101": "Dev and selling - residential",
+          "41102": "Dev and selling - office",
+          "41103": "Dev and selling - industrial",
+          "41104": "Dev and selling - retail",
+          "41105": "Dev and selling - other",
+          "41201": "Construction of commercial buildings",
+          "41202": "Construction of domestic buildings"
+        }
+      },
+      engineering: {
+        label: "Civil engineering",
+        subcategory: {
+          "42110": "Construction of roads and motorways",
+          "42120": "Construction of railways and underground",
+          "42130": "Construction of bridges and tunnels",
+          "42210": "Building of utility projects for fluids",
+          "42220": "Electricity/telecom construction project",
+          "42910": "Construction of water projects",
+          "42990": "Construction/other civil engineer projct"
+        },
+        specialised: {
+          label: "Specialised construction activities",
+          subcategory: {
+            "43110": "Demolition",
+            "43120": "Site preparation",
+            "43130": "Test drilling and boring",
+            "43210": "Electrical installation",
+            "43220": "Plumbing, heat and air-con installation",
+            "43290": "Other construction installation",
+            "43310": "Plastering",
+            "43320": "Joinery installation",
+            "43330": "Floor and wall covering",
+            "43341": "Painting",
+            "43342": "Glazing",
+            "43390": "Other building completion and finishing",
+            "43910": "Roofing activities",
+            "43991": "Scaffold erection",
+            "43999": "Specialist build activity (not scaffold)"
+          }
+        }
+      }
+    }
+  },
+  G: {
+    label:
+      "Wholesale and retail trade repair of motor vehicles and motorcycles",
+    category: {
+      motorcycles: {
+        label:
+          "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+        subcategory: {
+          "45111": "Sale of new cars or light motor vehicles",
+          "45112": "Sale of used cars or light motor vehicle",
+          "45190": "Sale of other motor vehicles",
+          "45200": "Maintenance and repair of motor vehicles",
+          "45310": "W'sale trade of motor vehicle parts etc",
+          "45320": "Retail trade of motor vehicle parts etc",
+          "45400": "Sale/repair motorcycles & related parts"
+        }
+      },
+      wholesale: {
+        label: "Wholesale trade, except of motor vehicles and motorcycles",
+        subcategory: {
+          "46110": "Agents selling live animals/textiles etc",
+          "46120": "Agents selling fuel/ore/metal/chemicals",
+          "46130": "Agents for sale timber/building material",
+          "46140": "Agents selling machinery/ships/aircraft",
+          "46150": "Agent selling furniture/h'hold goods etc",
+          "46160": "Agents sell clothes/footwear/leatherwear",
+          "46170": "Agents for sale of food/drink/tobacco",
+          "46180": "Agents for sales other specific products",
+          "46190": "Agents involved in sale of various goods",
+          "46210": "W'sale of grain, unmanufacd tobacco/seed",
+          "46220": "Wholesale of flowers and plants",
+          "46230": "Wholesale of live animals",
+          "46240": "Wholesale of hides, skins and leather",
+          "46310": "Wholesale of fruit and vegetables",
+          "46320": "Wholesale of meat and meat products",
+          "46330": "W'sale dairy product/eggs/edible oil/fat",
+          "46341": "W'sale juices/mineral water/soft drink",
+          "46342": "W'sale of wine, beer, spirits etc",
+          "46350": "Wholesale of tobacco products",
+          "46360": "W'sale sugar & chocolate & sugar sweets",
+          "46370": "Wholesale of coffee, tea, cocoa, spices",
+          "46380": "W'sale other food;fish/crustacean/molusc",
+          "46390": "Non-specialist w'sale food/drink/tobacco",
+          "46410": "Wholesale of textiles",
+          "46420": "Wholesale of clothing and footwear",
+          "46431": "W'sale records/tapes/cds/videos/players",
+          "46439": "W'sale radio/tv/h'hold electricals n.e.c",
+          "46440": "W'sale china/glassware/cleaning material",
+          "46450": "Wholesale of perfume and cosmetics",
+          "46460": "Wholesale of pharmaceutical goods",
+          "46470": "W'sale of furniture, carpet and lighting",
+          "46480": "Wholesale of watches and jewellery",
+          "46491": "Wholesale of musical instruments",
+          "46499": "W'sale h'hold good(not music instrument)",
+          "46510": "W'sale of computers/peripheral/software",
+          "46520": "W'sale of electronic/telecom equipment",
+          "46610": "W'sale agriculture machines/equipmnt etc",
+          "46620": "Wholesale of machine tools",
+          "46630": "W'sale mine/build/civil engineer machine",
+          "46640": "W'sale machines for textile industry",
+          "46650": "Wholesale of office furniture",
+          "46660": "W'sale of other office machines or gear",
+          "46690": "Wholesale of other machines or equipment",
+          "46711": "W'sale petroleum and petroleum products",
+          "46719": "W'sale grease/lubricant/oil(not petrol)",
+          "46720": "Wholesale of metals and metal ores",
+          "46730": "W'sale wood/build material/sanitary kit",
+          "46740": "W'sale hardware/plumb/heat equipment",
+          "46750": "Wholesale of chemical products",
+          "46760": "Wholesale of other intermediate products",
+          "46770": "Wholesale of waste and scrap",
+          "46900": "Non-specialised wholesale trade"
+        }
+      },
+      retail: {
+        label: "Retail trade, except of motor vehicles and motorcycles",
+        subcategory: {
+          "47110": "Non specialised retail sale mainly food",
+          "47190": "Other retail sale in general stores",
+          "47210": "Retail sale fruit & veg in special shops",
+          "47220": "Specialist retail sale meat/meat product",
+          "47230": "Specialist retail sale fish/shellfish",
+          "47240": "Specialist retail sale bread/cakes etc",
+          "47250": "Retail sale beverages in specialist shop",
+          "47260": "Retail sale tobacco product (specialist)",
+          "47290": "Other retail food sales in special shops",
+          "47300": "Retail sale vehicle fuel in special shop",
+          "47410": "Specialist retail sale computer/software",
+          "47421": "Retail sale mobile phone in special shop",
+          "47429": "Special retail sale comms (not mobiles)",
+          "47430": "Specialist retail sale audio/video kit",
+          "47510": "Sales of textiles in specialist stores",
+          "47520": "Specialist retailer hardware/paint/glass",
+          "47530": "Specialist retail:wall & floor coverings",
+          "47540": "Specialst retail sale electric appliance",
+          "47591": "Specialist retail sale music instrument",
+          "47599": "Special retail sale furniture/lights etc",
+          "47610": "Retail sale of books in specialist store",
+          "47620": "Specialist retail sale papers/stationery",
+          "47630": "Specialist retailer music/video recordng",
+          "47640": "Retail sale sports gear in special shops",
+          "47650": "Retail sale games/toys in special stores",
+          "47710": "Sales of clothing in specialised stores",
+          "47721": "Sales of footwear in specialised stores",
+          "47722": "Retail sale leather gear in special shop",
+          "47730": "Dispensing chemist in specialised stores",
+          "47741": "Retail sale hearing aids in special shop",
+          "47749": "Special retail sale of medic/orthopaedic",
+          "47750": "Special retail sale cosmetic/toilet item",
+          "47760": "Specialist retail sale floristry or pets",
+          "47770": "Retail sale in jewelry/watch stores",
+          "47781": "Retail sale in commercial art galleries",
+          "47782": "Retail sale by opticians",
+          "47789": "Other specialist retail sale new goods",
+          "47791": "Retail sale in antique/antique book shop",
+          "47799": "Retail sale 2nd-hand goods(not antiques)",
+          "47810": "Food/drink/tobacco sale via markets",
+          "47820": "Retail sale clothing via markets/stalls",
+          "47890": "Retail sale other goods via stall/market",
+          "47910": "Retail sale via mail or internet",
+          "47990": "Other retail sale not store/stall/market"
+        }
+      }
+    }
+  },
+  H: {
+    label: "Transportation and storage",
+    category: {
+      land: {
+        label: "Land transport and transport via pipelines",
+        subcategory: {
+          "49100": "Passenger rail transport, interurban",
+          "49200": "Freight rail transport",
+          "49311": "Passenger rail transport (underground)",
+          "49319": "(nonunderground rail)passenger transport",
+          "49320": "Taxi operation",
+          "49390": "Other passenger land transport n.e.c.",
+          "49410": "Freight transport by road",
+          "49420": "Removal services",
+          "49500": "Transport via pipeline"
+        }
+      },
+      water: {
+        label: "Water transport",
+        subcategory: {
+          "50100": "Sea or coastal passenger water transport",
+          "50200": "Sea and coastal freight water transport",
+          "50300": "Inland passenger water transport",
+          "50400": "Inland freight water transport"
+        }
+      },
+      air: {
+        label: "Air transport",
+        subcategory: {
+          "50100": "Sea or coastal passenger water transport",
+          "50200": "Sea and coastal freight water transport",
+          "50300": "Inland passenger water transport",
+          "50400": "Inland freight water transport"
+        }
+      },
+      warehousing: {
+        label: "Warehousing and support activities for transportation",
+        subcategory: {
+          "52101": "Operation of storage for water transport",
+          "52102": "Operation of storage for air transport",
+          "52103": "Operation of storage for land transport",
+          "52211": "Operation of rail freight terminals",
+          "52212": "Operating rail user facilities instation",
+          "52213": "Ops bus/coach rider facility at stations",
+          "52219": "Other service acts to land transport nec",
+          "52220": "Servce activity related to water transpt",
+          "52230": "Service activity related to air transprt",
+          "52241": "Water transport cargo handling activity",
+          "52242": "Cargo handling for air transprt activity",
+          "52243": "Cargo handlng of land transport activity",
+          "52290": "Other transportation support activities"
+        }
+      },
+      postal: {
+        label: "Postal and courier activities",
+        subcategory: {
+          "53100": "Postal work under universal service duty",
+          "53201": "Licensed carriers",
+          "53202": "Unlicensed carriers"
+        }
+      }
+    }
+  },
+  I: {
+    label: "Accommodation and food service activities",
+    category: {
+      accomodation: {
+        label: "Accomodation",
+        subcategory: {
+          "55100": "Hotels and similar accommodation",
+          "55201": "Holiday centres and villages",
+          "55202": "Youth hostels",
+          "55209": "Other holiday/short-stay accomm n.e.c.",
+          "55300": "Camping grounds, recreation vehicle park",
+          "55900": "Other accommodation"
+        }
+      },
+      food: {
+        label: "Food and beverage service activities",
+        subcategory: {
+          "56101": "Licensed restaurants",
+          "56102": "Unlicensed restaurants and cafes",
+          "56103": "Takeaway food shops or mobile food stand",
+          "56210": "Event catering activities",
+          "56290": "Other food service activities",
+          "56301": "Licensed clubs",
+          "56302": "Public houses and bars"
+        }
+      }
+    }
+  },
+  J: {
+    label: "Information and communication",
+    category: {
+      publishing: {
+        label: "Publishing activities",
+        subcategory: {
+          "58110": "Book publishing",
+          "58120": "Publishing directories and mailing lists",
+          "58130": "Publishing of newspapers",
+          "58141": "Publishing of learned journals",
+          "58142": "Publishing consumer/professional journal",
+          "58190": "Other publishing activities",
+          "58210": "Publishing of computer games",
+          "58290": "Other software publishing"
+        }
+      },
+      media: {
+        label:
+          "Motion picture, video and television programme production, sound recording and music publishing activities",
+        subcategory: {
+          "59111": "Motion picture production activities",
+          "59112": "Video production activities",
+          "59113": "Tv programme production activities",
+          "59120": "Post-production of film/video/tv program",
+          "59131": "Motion picture distribution activities",
+          "59132": "Video distribution activities",
+          "59133": "Tv programme distribution activities",
+          "59140": "Motion picture projection activities",
+          "59200": "Sound recording/music publisher activity"
+        }
+      },
+      broadcasting: {
+        label: "Programming and broadcasting activities",
+        subcategory: {
+          "60100": "Radio broadcasting",
+          "60200": "Tv programming and broadcasting activity"
+        }
+      },
+      telecoms: {
+        label: "Telecommunications",
+        subcategory: {
+          "61100": "Wired telecommunications activities",
+          "61200": "Wireless telecommunications activities",
+          "61300": "Satellite telecommunications activities",
+          "61900": "Other telecommunications activities"
+        }
+      },
+      computer: {
+        label: "Computer programming, consultancy and related activities",
+        subcategory: {
+          "62011": "Interactive leisure software development",
+          "62012": "Business or domestic software developing",
+          "62020": "Computer consultancy activities",
+          "62030": "Computer facilities management activity",
+          "62090": "Other info tech/computer service activit"
+        }
+      },
+      information: {
+        label: "Information service activities",
+        subcategory: {
+          "63110": "Data processing and related activity",
+          "63120": "Web portals",
+          "63910": "News agency activities",
+          "63990": "Other info service activity n.e.c."
+        }
+      }
+    }
+  },
+  K: {
+    label: "Financial and insurance activities",
+    category: {
+      financial: {
+        label:
+          "Financial service activities, except insurance and pension funding",
+        subcategory: {
+          "64110": "Central banking",
+          "64191": "Banks",
+          "64192": "Building societies",
+          "64201": "Activity agricultural holding companies",
+          "64202": "Activity of production holding companies",
+          "64203": "Activity construction holding companies",
+          "64204": "Activity distribution holding companies",
+          "64205": "Activity financial services holding co's",
+          "64209": "Activity other holding companies n.e.c.",
+          "64301": "Activities of investment trusts",
+          "64302": "Activities of unit trusts",
+          "64303": "Activity venture/developmnt capital co's",
+          "64304": "Activity of open-ended investment co.s",
+          "64305": "Activities of property unit trusts",
+          "64306": "Activity of real estate investment trust",
+          "64910": "Financial leasing",
+          "64921": "Credit granting by non-deposit fin house",
+          "64922": "Activities of mortgage finance companies",
+          "64929": "Other credit granting n.e.c.",
+          "64991": "Security dealing on own account",
+          "64992": "Factoring",
+          "64999": "Other financial service activity n.e.c."
+        }
+      },
+      insurance: {
+        label:
+          "Insurance, reinsurance and pension funding, except compulsory social security",
+        subcategory: {
+          "65110": "Life insurance",
+          "65120": "Non-life insurance",
+          "65201": "Life reinsurance",
+          "65202": "Non-life reinsurance",
+          "65300": "Pension funding"
+        }
+      },
+      auxillary: {
+        label:
+          "Activities auxiliary to financial services and insurance activities",
+        subcategory: {
+          "66110": "Administration of financial markets",
+          "66120": "Security and commodity contracts broking",
+          "66190": "Financial serv support acts(not funding)",
+          "66210": "Risk and damage evaluation",
+          "66220": "Activity of insurance agents and brokers",
+          "66290": "Other acts auxilary to insurance/pension",
+          "66300": "Fund management activities"
+        }
+      }
+    }
+  },
+  L: {
+    label: "Real estate activities",
+    category: {
+      all: {
+        label: "Real estate activities",
+        subcategory: {
+          "68100": "Buying and selling of own real estate",
+          "68201": "Rent/operation housing assoc'n property",
+          "68202": "Let/operate conference/exhibition centre",
+          "68203": "Letting own property-residential",
+          "68204": "Letting own property-office",
+          "68205": "Letting own property-industrial",
+          "68206": "Letting own property-retail",
+          "68209": "Letting/operating own/leased real estate",
+          "68310": "Real estate agencies",
+          "68320": "Manage real estate on fee/contract basis"
+        }
+      }
+    }
+  },
+  M: {
+    label: "Professional, scientific and technical activities",
+    category: {
+      legal: {
+        label: "Legal and accounting activities",
+        subcategory: {
+          "69101": "Barristers at law",
+          "69102": "Solicitors",
+          "69109": "Other legal (executors/patent/copyright)",
+          "69201": "Accounting, and auditing activities",
+          "69202": "Bookkeeping activities",
+          "69203": "Tax consultancy"
+        }
+      },
+      management: {
+        label: "Activities of head offices; management consultancy activities",
+        subcategory: {
+          "70100": "Activities of head offices",
+          "70210": "Public relation or communicator activity",
+          "70221": "Financial management",
+          "70229": "Mngmnt consultant activity(not fnancial)"
+        }
+      },
+      engineering: {
+        label:
+          "Architectural and engineering activities; technical testing and analysis",
+        subcategory: {
+          "71111": "Architectural activities",
+          "71112": "Urban plan/landscape architectur activit",
+          "71121": "Engineering design of industrial process",
+          "71122": "Engineering related consulting activity",
+          "71129": "Other engineering activity n.e.c",
+          "71200": "Technical testing and analysis"
+        }
+      },
+      scientific: {
+        label: "Scientific research and development",
+        subcategory: {
+          "72110": "Research/experiment development biotech",
+          "72190": "Other r & d natural science/engineering",
+          "72200": "R & dev on social science and humanities"
+        }
+      },
+      advertising: {
+        label: "Advertising and market research",
+        subcategory: {
+          "73110": "Advertising agencies",
+          "73120": "Media representation",
+          "73200": "Market research or public opinion polls"
+        }
+      },
+      other: {
+        label: "Other professional, scientific and technical activities",
+        subcategory: {
+          "74100": "Specialised design activities",
+          "74201": "Portrait photographic activities",
+          "74202": "Other special photography (not portrait)",
+          "74203": "Film processing",
+          "74209": "Other photographic activity n.e.c.",
+          "74300": "Translation and interpretation activity",
+          "74901": "Environmental consulting activities",
+          "74902": "Quantity surveying activities",
+          "74909": "Other professional/sciency/technical act"
+        }
+      },
+      veterinary: {
+        label: "Veterinary activities",
+        subcategory: {
+          "75000": "Veterinary activities"
+        }
+      }
+    }
+  },
+  N: {
+    label: "Administrative and support service activities",
+    category: {
+      rental: {
+        label: "Rental and leasing activities",
+        subcategory: {
+          "77110": "Rent/lease of cars/light motor vehicles",
+          "77120": "Renting and leasing of trucks",
+          "77210": "Rent/lease of recreation and sport goods",
+          "77220": "Renting of video tapes and disks",
+          "77291": "Rent/lease media entertainment equipment",
+          "77299": "Rent/lease other personal/h'hold goods",
+          "77310": "Rent/lease agriculture machine/equipment",
+          "77320": "Rent/lease building/engineering machines",
+          "77330": "Rent/lease office machinery & equipment",
+          "77341": "Rent/lease passenger water transprt gear",
+          "77342": "Rent/lease freight water transport equip",
+          "77351": "Rent/lease passenger air transport equip",
+          "77352": "Rent/lease freight air transport gear",
+          "77390": "Rent/lease other machinery/equipment etc",
+          "77400": "Leasing intellectual ppty(not copyright)"
+        }
+      },
+      employment: {
+        label: "Employment activities",
+        subcategory: {
+          "78101": "Film, tv and other theatrical casting",
+          "78109": "Activity employment placing agencies",
+          "78200": "Temporary employment agency activities",
+          "78300": "Other human resources provision"
+        }
+      },
+      travel: {
+        label:
+          "Travel agency, tour operator and other reservation service and related activities",
+        subcategory: {
+          "79110": "Travel agency activities",
+          "79120": "Tour operator activities",
+          "79901": "Activities of tourist guides",
+          "79909": "Other reservation activity(not guides)"
+        }
+      },
+      security: {
+        label: "Security and investigation activities",
+        subcategory: {
+          "80100": "Private security activities",
+          "80200": "Security systems service activities",
+          "80300": "Investigation activities"
+        }
+      },
+      buildings: {
+        label: "Services to buildings and landscape activities",
+        subcategory: {
+          "81100": "Combined facilities support activities",
+          "81210": "General cleaning of buildings",
+          "81221": "Window cleaning services",
+          "81222": "Specialised cleaning services",
+          "81223": "Furnace and chimney cleaning services",
+          "81229": "Building/industrial cleaning n.e.c.",
+          "81291": "Disinfecting and extermination services",
+          "81299": "Cleaning services (not disinfecting)",
+          "81300": "Landscape service activities"
+        }
+      },
+      administrative: {
+        label:
+          "Office administrative, office support and other business support activities",
+        subcategory: {
+          "82110": "Combined office admin service activity",
+          "82190": "Photocopy & other office support activit",
+          "82200": "Activities of call centres",
+          "82301": "Activity exhibition and fair organizers",
+          "82302": "Activities of conference organizers",
+          "82911": "Activities of collection agencies",
+          "82912": "Activities of credit bureaus",
+          "82920": "Packaging activities",
+          "82990": "Business support service activity n.e.c."
+        }
+      }
+    }
+  },
+  O: {
+    label: "Public administration and defense compulsory social security",
+    category: {
+      all: {
+        label: "Public administration and defence; compulsory social security",
+        subcategory: {
+          "84110": "General public administration activities",
+          "84120": "Regulation health care/education etc",
+          "84130": "Regul/aiding of efficient ops of co's",
+          "84210": "Foreign affairs",
+          "84220": "Defence activities",
+          "84230": "Justice and judicial activities",
+          "84240": "Public order and safety activities",
+          "84250": "Fire service activities",
+          "84300": "Compulsory social security activities"
+        }
+      }
+    }
+  },
+  P: {
+    label: "Education",
+    category: {
+      all: {
+        label: "Education",
+        subcategory: {
+          "85100": "Pre-primary education",
+          "85200": "Primary education",
+          "85310": "General secondary education",
+          "85320": "Technical/vocational secondary education",
+          "85410": "Post-secondary non-tertiary education",
+          "85421": "First-degree level higher education",
+          "85422": "Post-graduate level higher education",
+          "85510": "Sports and recreation education",
+          "85520": "Cultural education",
+          "85530": "Driving school activities",
+          "85590": "Other education n.e.c.",
+          "85600": "Educational support activities"
+        }
+      }
+    }
+  },
+  Q: {
+    label: "Human health and social work activities",
+    category: {
+      health: {
+        label: "Human health activities",
+        subcategory: {
+          "86101": "Hospital activities",
+          "86102": "Medical nursing home activities",
+          "86210": "General medical practice activities",
+          "86220": "Specialist medical practice activities",
+          "86230": "Dental practice activities",
+          "86900": "Other human health activities"
+        }
+      },
+      care: {
+        label: "Residential care activities",
+        subcategory: {
+          "87100": "Residential nursing care activities",
+          "87200": "Residential care for mental health etc",
+          "87300": "Residential care for elderly/disabled",
+          "87900": "Other residential care activities"
+        }
+      },
+      social: {
+        label: "Social work activities without accommodation",
+        subcategory: {
+          "88100": "Social work(no accommodation for infirm)",
+          "88910": "Child day-care activities",
+          "88990": "Other social work activity without board"
+        }
+      }
+    }
+  },
+  R: {
+    label: "Arts, entertainment and recreation",
+    category: {
+      arts: {
+        label: "Creative, arts and entertainment activities",
+        subcategory: {
+          "90010": "Performing arts",
+          "90020": "Support activities to performing arts",
+          "90030": "Artistic creation",
+          "90040": "Operation of arts facilities"
+        }
+      },
+      archives: {
+        label: "Libraries, archives, museums and other cultural activities",
+        subcategory: {
+          "91011": "Library activities",
+          "91012": "Archive activities",
+          "91020": "Museum activities",
+          "91030": "Operation historical sites/buildings etc",
+          "91040": "Botanical/zoological gardens activity"
+        }
+      },
+      gambling: {
+        label: "Gambling and betting activities",
+        subcategory: {
+          "92000": "Gambling and betting activities"
+        }
+      },
+      sports: {
+        label: "Sports activities and amusement and recreation activities",
+        subcategory: {
+          "93110": "Operation of sports facilities",
+          "93120": "Activities of sport clubs",
+          "93130": "Fitness facilities",
+          "93191": "Activities of racehorse owners",
+          "93199": "Other sport activity(no racehorse owner)",
+          "93210": "Activity of amusement and theme parks",
+          "93290": "Other amusement and recreation activity"
+        }
+      }
+    }
+  },
+  S: {
+    label: "Other service activities",
+    category: {
+      membership: {
+        label: "Activities of membership organisations",
+        subcategory: {
+          "94110": "Activity of busines/employer member orgs",
+          "94120": "Activity of professional membership orgs",
+          "94200": "Activities of trade unions",
+          "94910": "Activities of religious organisations",
+          "94920": "Activities of political organisations",
+          "94990": "Activity of other membership orgs n.e.c."
+        }
+      },
+      repair: {
+        label: "Repair of computers and personal and household goods",
+        subcategory: {
+          "95110": "Repair of computer or peripheral items",
+          "95120": "Repair of communication equipment",
+          "95210": "Repair of consumer electronics",
+          "95220": "Repairs home appliance/garden equipment",
+          "95230": "Repair of footwear and leather goods",
+          "95240": "Repair of furniture and home furnishings",
+          "95250": "Repair of watches, clocks and jewellery",
+          "95290": "Repair of other household goods"
+        }
+      },
+      other: {
+        label: "Other personal service activities",
+        subcategory: {
+          "96010": "Washing/dry-cleaning of textile and furs",
+          "96020": "Hairdressing and other beauty treatment",
+          "96030": "Funeral and related activities",
+          "96040": "Physical well-being activities",
+          "96090": "Other personal service activities n.e.c."
+        }
+      }
+    }
+  },
+  T: {
+    label:
+      "Activities as households as employers undifferentiated goods and services producing activites of households for own use",
+    category: {
+      employer: {
+        label: "Activities of households as employers of domestic personnel",
+        subcategory: {
+          "97000": "Households employing domestic helpers"
+        }
+      },
+      private: {
+        label:
+          "Undifferentiated goods- and services-producing activities of private households for own use",
+        subcategory: {
+          "98100": "Private h'holds producing goods(own use)",
+          "98200": "Private h'holds making services(own use)"
+        }
+      }
+    }
+  },
+  U: {
+    label: "Activities of extraterritorial organisations and bodies",
+    category: {
+      all: {
+        label: "Activities of extraterritorial organisations and bodies",
+        subcategory: {
+          "99000": "Extraterritorial organisations or bodies"
+        }
+      }
+    }
+  }
+};
